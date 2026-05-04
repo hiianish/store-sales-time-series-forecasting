@@ -207,5 +207,3 @@ submission["sales"] = test_preds
 submission.to_csv("submission.csv", index=False)
 print("✅ submission.csv saved!")
 print(submission.head(10).to_string())
-
-print("\n✅ Task 2 Complete — Model trained, validated, and predictions saved.")
